@@ -19,6 +19,7 @@ body {
     background-image: url(assets/images/beach.jpg);
     background-size: cover;
     background-position: 100%;
+    background-position: right;
     padding-top: 120px;
     padding-bottom: 100px;
     margin: 0;
@@ -33,15 +34,7 @@ body {
 
 /*head section css start*/
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 #showcase {
-    background-image: url(assets/images/beach.jpg);
-    background-size: cover;
-    background-position: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -52,22 +45,22 @@ body {
 }
 
 #showcase h1 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.2;
     color: #5f3510;
     ;
 }
 
 #showcase h1 span {
-    font-size: 60px;
-    letter-spacing: 10px;
-    word-spacing: 5px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    word-spacing: 3px;
     color: var(--cover-color-2);
 }
 
 #showcase h1 span:hover {
-    font-size: 50px;
-    letter-spacing: 40px;
+    font-size: 30px;
+    letter-spacing: 15px;
     word-spacing: 2px;
     word-wrap: normal;
     color: var(cover-color-1);
@@ -118,6 +111,7 @@ body {
 #showcase .rule-listed .one-fivelisted li {
     list-style-type: none;
     font-weight: bold;
+    padding-bottom: 30px;
 }
 
 #showcase .boxgiven {
@@ -357,9 +351,85 @@ body {
 /*REGISTRATION.HTML CSS END*/
 
 
-/*PHONE RESPONSIVENESS START*/
+/*PHONE RESPONSIVENESS @ 600X START*/
 
-@media screen and (max-width: 360px) {}
+@media only screen and (max-width: 600px) {
+    #showcase {
+        padding: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #showcase h1 {
+        font-size: 20px;
+        line-height: 1.2;
+        color: #5f3510;
+        ;
+    }
+    #showcase h1 span {
+        font-size: 30px;
+        letter-spacing: 5px;
+        word-spacing: 2px;
+        color: var(--cover-color-2);
+    }
+    #showcase h1 span:hover {
+        font-size: 20px;
+        letter-spacing: 15px;
+        word-spacing: 2px;
+        word-wrap: normal;
+        color: var(cover-color-1);
+    }
+    #showcase p {
+        font-size: 15px;
+    }
+    #showcase .button {
+        font-size: 18px;
+        background: #926239;
+        color: #fff;
+        text-decoration: none;
+        border: #926239 1px solid;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    #showcase .button:hover {
+        background: rgba(255, 255, 255, 0.315);
+        color: #926239;
+    }
+    #showcase h4 {
+        font-size: color: rgb(247, 243, 243);
+        background-color: rgb(110, 61, 4);
+        padding: 10px 20px;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        font-family: Courgette;
+        margin-bottom: 15px;
+    }
+    #showcase .rule-listed {
+        display: flex;
+    }
+    #showcase .rule-listed .one-fivelisted {
+        font-family: Courgette;
+        font-size: 17px;
+        color: black;
+        justify-content: left;
+        justify-items: left;
+        align-self: flex-start;
+    }
+    #showcase .rule-listed .one-fivelisted li {
+        list-style-type: none;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+    #showcase .boxgiven {
+        padding: 45px;
+        box-shadow: 4px 4px 25px rgb(97, 48, 8);
+        border-top-style: groove;
+        border-left-style: groove;
+        border-width: 3px;
+        border-color: rgb(250, 105, 21);
+        margin-bottom: 40px;
+    }
+}
 
 
-/*PHONE RESPONSIVENESS END*/
+/*PHONE RESPONSIVENESS @600PX END*/
