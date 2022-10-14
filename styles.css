@@ -16,7 +16,7 @@
              }
              
              body {
-                 background-image: url(assets/images/beach.jpg);
+                 background-image: url(assets/images/beach-2.jpg);
                  background-size: cover;
                  background-position: 100%;
                  padding-top: 120px;
@@ -384,7 +384,24 @@
                  margin-bottom: 0;
              }
              
-             .wrapper .submit-now {
+             .submit-now {
                  margin-top: 50px;
+             }
+             
+             .submit-now .btn {
+                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                 padding: 10px 20px;
+                 background-color: #925801;
+                 color: white;
+                 font-weight: 400px;
+                 text-align: center;
+                 text-decoration: none;
+                 transition: .5s;
+             }
+             
+             .submit-now .btn:hover {
+                 background-color: #e6652ada;
+                 word-spacing: 2px;
+                 letter-spacing: 5px;
              }
              /*REGISTRATION.HTML CSS END*/

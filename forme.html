@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="title">
+            OLU-LEGAL VOCATIONAL TRAINING 2.0
+        </div>
+        <form id="form">
+            <div class="form">
+                <div class="inputfield">
+                    <label>WHY THE VOCATION?</label>
+                    <textarea class="textarea" id="why-vocation" name="why-the-vocation" required></textarea>
+                </div>
+
+                <div class="inputfield">
+                    <label>NAME</label>
+                    <input type="text" class="input" id="name" name="fname" required>
+                </div>
+                <div class="inputfield">
+                    <label>GENDER</label>
+                    <div class="custom_select">
+                        <select id="gender" required>
+                            <option value="male">MALE</option>
+              <option value="female">FEMAILE</option>
+            </select>
+                    </div>
+                </div>
+                <div class="inputfield">
+                    <label>EMAIL ADDRESS</label>
+                    <input type="email" class="input" id="email" required>
+                </div>
+                <div class="inputfield">
+                    <label>TELEPHONE</label>
+                    <input type="tel" class="input" id="telephone" required>
+                </div>
+                <div class="inputfield">
+                    <label>COLLEGE</label>
+                    <div class="custom_select">
+                        <select id="college" required>
+              <option value="">PERMANENT SITE</option>
+              <option value="">IBOGUN CAMPUS</option>
+              <option value="">AYETORO CAMPUS</option>
+              <option value="">SAGAMU CAMPUS</option>
+                                        </select>
+                    </div>
+                </div>
+                <div class="inputfield">
+                    <label>VOCATION</label>
+                    <div class="custom_select">
+                        <select name="" id="vocation-pick" class="work-form" required>
+                            <option class="option-select" value="">Select...</option>
+                           <option value=""></option>
+                                <option class="option-select">ARTS & CRAFT: Clothes Customization & Pasting of Wallapers</option>
+                    <option class="option-select">IMPORTATION</option>
+                    <option class="option-select">PAINT PRODUCTION</option>
+                    <option class="option-select" >BAKING: CHinchin, Doughnuts & Cake. + BEAD MAKIN</option>
+                                <option class="option-select">PROJECT MANAGEMENT</option>
+                                <option class="option-select">CUSTOMIZATION</option>
+                    <option class="option-select" >PROGRAMMING, CONTENT CREATION, VIDEO EDITING AND GRAPHICS DESIGN</option>
+                </select>
+                    </div>
+                </div>
+                <div class="inputfield">
+                    <label>DEPARTMENT</label>
+                    <input type="text" class="input" id="department" required>
+                </div>
+
+                <div class="inputfield">
+                    <label>LEVEL</label>
+                    <input type="text" class="input" id="level" required>
+                </div>
+
+                <div class="inputfield">
+                    <div class="submit-now">
+                        <button class="btn" id="submit1" value="REGISTER" onclick="myFunction()">REGISTER</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" name="" id="" class="work-form">
+                <option class="option-select" value="">Select...</option>
+               <option value=""></option>
+                    <option class="option-select" value="https://chat.whatsapp.com/I8ZR3dwQ0Yk5BNKGqqrbUD">ARTS & CRAFT: Clothes Customization & Pasting of Wallapers</option>
+        <option class="option-select" value="https://chat.whatsapp.com/K1Rt2DAtc1JHjXSXxbZTqU">IMPORTATION</option>
+        <option class="option-select" value="https://chat.whatsapp.com/LhzlxwAWSkMIPuZ83pAdLm">PAINT PRODUCTION</option>
+        <option class="option-select" value="https://chat.whatsapp.com/Kexo0ePJWKPKPFxVXnfoQh">BAKING: CHinchin, Doughnuts & Cake. + BEAD MAKIN</option>
+                    <option class="option-select" value="https://chat.whatsapp.com/JRIDYAz6HuZKqOYSY9DGyD">PROJECT MANAGEMENT</option>
+                                <option class="option-select" value="https://chat.whatsapp.com/COxYVxMjfBR7GYNnOBZyHw">PROGRAMMING, CONTENT CREATION, VIDEO EDITING AND GRAPHICS DESIGN</option>
+    </select>
+        </form>
+
+        <script src="index.js">
+        </script>
+    </div>
+
+
+</body>
+
+</html>
