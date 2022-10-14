@@ -403,5 +403,12 @@
                  background-color: #e6652ada;
                  word-spacing: 2px;
                  letter-spacing: 5px;
+                 color: yellow;
+             }
+             
+             .submit-now .btn a {
+                 text-decoration: none;
+                 color: white;
+                 font-weight: 700px;
              }
              /*REGISTRATION.HTML CSS END*/
