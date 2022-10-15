@@ -383,16 +383,17 @@
                      
                      @media only screen and (max-width: 600px) {
                          body {
-                             padding: 100px 35px;
+                             padding: 200px 35px;
                          }
                          #showcase h1 {
                              font-size: 20px;
+                             padding-top: 50px;
                          }
                          #showcase h1 span {
                              font-size: 30px;
                              letter-spacing: 7px;
                              word-spacing: 3px;
-                             color: white;
+                             color: rgb(255, 0, 0);
                          }
                          #showcase h4 {
                              font-size: 10px;
@@ -416,6 +417,14 @@
                          }
                          .wrapper .form .inputfield.terms {
                              flex-direction: row;
+                         }
+                         #showcase .work-form {
+                             color: rgb(0, 0, 0);
+                             font-weight: bold;
+                             background-color: rgba(255, 255, 255, 0.13);
+                         }
+                         #showcase .work-form .btn {
+                             padding-top: 100px;
                          }
                      }
                      /*MOBILE RESPONSIVENESS END*/
